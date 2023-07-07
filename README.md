@@ -1,13 +1,14 @@
 # chatpdf
-Embed your own PDF files into chat query
+Embed your own PDF files into the chat query. This allows you to ask questions on a long PDF file, for example, to summarise the content. 
 
-1. Save your PDF file you wish to query into /data/docs (for example)
+1. Save the PDF files you wish to query into /data/docs (for example)
 2. Create .env with your own OpenAI APIKEY
 3. Edit chatpdf.py with the path of your PDF files, and update the query you want
 4. Run chatpdf.py
 
-Below is a sample output:
-```# ./chatpdf.py
+Below is a sample output, where my query = "Summarize the article into key points for ease of reading."
+```
+# ./chatpdf.py
 <class 'list'>
 file_path= /data/docs/gartner/2023-gartner-top-strategic-technology-trends.pdf
 <class 'list'>
